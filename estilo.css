@@ -1,0 +1,133 @@
+body {
+    font-family: 'Comic Neue Static';
+    margin-top: 300px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5c0ee;
+    color: #130b05;
+  }
+  header img{
+    margin-left: 30px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  /* Encabezado */
+  header {
+    background-color: white;
+    color: rgb(8, 0, 0);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100px;
+  }
+
+ 
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Centra los elementos del menú horizontalmente */
+    gap: 40px; /* Espacio entre los elementos */
+ 
+}
+#nosotros{
+  margin: 100px;
+}
+#productos {
+  margin: 100px;
+  }
+#servicios {
+  margin: 100px;
+} 
+#testimonios {
+  margin: 100px;
+
+} 
+#contacto {
+  margin: 100px;
+
+}
+.menu li {
+    display: inline-block;
+}  
+  
+  /* Logo */
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .logo img {
+    width: 100px; /* Tamaño del logo */
+    height: auto;
+    margin-right: 100px;
+    margin-top:10px;
+    display: inline;
+  }
+  
+  header .logo p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 24px;
+    margin: 0;
+    color: black;
+  }
+  
+  /* Navegación */
+  nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+  }
+  
+  nav ul li a:hover {
+    color: #f10a91;
+  }
+  
+  /* Sección de Inicio */
+  .inicio {
+    background: url('img/galleta1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    flex-direction: column;
+  
+  }
+  
+
+  .hero h2 {
+    font-size: 48px;
+    font-family: Rock;
+  }
+
+  #nosotros{
+    margin: 50px 50px 50px 50px;
+
+  }
+  
+  
